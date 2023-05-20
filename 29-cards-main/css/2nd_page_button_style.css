@@ -1,0 +1,70 @@
+.clickButton2ndpage2{
+    -fx-background-color:#2196f3;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+}
+.clickButton2ndpage2:hover{
+    -fx-background-color:white;
+    -fx-background-radius: 30;
+    -fx-text-fill: #2196f3;
+    -fx-border-color: #2196f3;
+    -fx-border-radius: 30;
+}
+.clickButton2ndpage2:pressed{
+    -fx-background-color:white;
+    -fx-background-radius: 30;
+    -fx-text-fill: #2196f3;
+    -fx-border-color: #2196f3;
+    -fx-border-radius: 30;
+    -fx-border-width:30;
+    /*-fx-rotate: 10;*/
+}
+.GameSoundOn{
+    -fx-background-color:linear-gradient(to bottom, #ff0066 0%, #000099 100%);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill:  #FFFFFF;
+}
+.GameSoundOn:hover{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: linear-gradient(to bottom, #ff0066 0%, #000099 100%);
+}
+.GameSoundOff{
+    -fx-background-color:linear-gradient(to bottom, #ff0066 0%, #000099 100%);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill:  #FFFFFF;
+}
+.GameSoundOff:hover{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: linear-gradient(to bottom, #ff0066 0%, #000099 100%);
+}
+.EXIT{
+    -fx-background-color: linear-gradient(to bottom, #ff0066 0%, #000099 100%);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill:  #FFFFFF;
+}
+.EXIT:hover{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: linear-gradient(to bottom, #ff0066 0%, #000099 100%);
+}
+.GoBack{
+    -fx-background-color:linear-gradient(to bottom, #ff0066 0%, #000099 100%);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill:  #FFFFFF;
+}
+.GoBack:hover{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: linear-gradient(to bottom, #ff0066 0%, #000099 100%);
+}

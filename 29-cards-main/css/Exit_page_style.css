@@ -1,0 +1,24 @@
+.Yes{
+    -fx-background-color:linear-gradient(to bottom, #cc0000 0%, #ff99cc 100%);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: linear-gradient(to bottom, #ccffff 0%, #ffcccc 100%);
+}
+.Yes:hover{
+    -fx-background-color:linear-gradient(to bottom, #ccffff 0%, #ffcccc 100%);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: linear-gradient(to bottom, #cc0000 0%, #ff99cc 100%);
+}
+.No{
+    -fx-background-color:linear-gradient(to bottom, #cc0000 0%, #ff99cc 100%);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: linear-gradient(to bottom, #ccffff 0%, #ffcccc 100%);
+}
+.No:hover{
+    -fx-background-color:linear-gradient(to bottom, #ccffff 0%, #ffcccc 100%);
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-text-fill: linear-gradient(to bottom, #cc0000 0%, #ff99cc 100%);
+}

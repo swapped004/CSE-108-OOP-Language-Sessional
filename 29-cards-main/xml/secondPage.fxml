@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootpane" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.secondPageController">
+   <children>
+      <ImageView fitHeight="906.0" fitWidth="1200.0" layoutX="6.0" pickOnBounds="true">
+         <image>
+            <Image url="@../2nd_image_new.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="333.0" layoutY="683.0" mnemonicParsing="false" onAction="#clickButton2ndpage2" prefHeight="188.0" prefWidth="564.0" style="-fx-border-color: #2196f3; -fx-border-width: 15;" styleClass="clickButton2ndpage2" stylesheets="@2nd_page_button_style.css" text="PLAY" textAlignment="CENTER" textFill="#a41818">
+         <font>
+            <Font name="Bernard MT Condensed" size="87.0" />
+         </font>
+      </Button>
+      <Button layoutX="70.0" layoutY="781.0" mnemonicParsing="false" onAction="#EXIT" prefHeight="37.0" prefWidth="114.0" style="-fx-border-width: 4; -fx-border-color: linear-gradient(to bottom, #ff00ff 0%, #3333ff 100%);" styleClass="EXIT" stylesheets="@2nd_page_button_style.css" text="EXIT">
+         <font>
+            <Font name="Bernard MT Condensed" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="554.0" layoutY="629.0" mnemonicParsing="false" onAction="#GoBack" prefHeight="39.0" prefWidth="104.0" style="-fx-border-color: linear-gradient(to bottom, #ff00ff 0%, #3333ff 100%); -fx-border-width: 4;" styleClass="GoBack" stylesheets="@2nd_page_button_style.css" text="Go Back" textFill="#f2e9e9">
+         <font>
+            <Font name="Bernard MT Condensed" size="19.0" />
+         </font>
+      </Button>
+      <Text fill="#e40707" layoutX="1038.0" layoutY="732.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Sound">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="1027.0" layoutY="764.0" mnemonicParsing="false" onAction="#GameSoundOn" prefHeight="39.0" prefWidth="54.0" style="-fx-border-color: linear-gradient(to bottom, #ff00ff 0%, #3333ff 100%); -fx-border-width: 4;" styleClass="GameSoundOn" stylesheets="@2nd_page_button_style.css" text="On" textFill="#fff6f6">
+         <font>
+            <Font name="Bernard MT Condensed" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="1106.0" layoutY="765.0" mnemonicParsing="false" onAction="#GameSoundOff" prefHeight="37.0" prefWidth="54.0" style="-fx-border-color: linear-gradient(to bottom, #ff00ff 0%, #3333ff 100%); -fx-border-width: 4;" styleClass="GameSoundOff" stylesheets="@2nd_page_button_style.css" text="Off" textAlignment="CENTER" textFill="#f8f0f0">
+         <font>
+            <Font name="Bernard MT Condensed" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

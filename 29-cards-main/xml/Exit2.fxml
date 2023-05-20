@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootpane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #00ffff 0%, #ffffcc 100%);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.exit2">
+   <children>
+      <Text fill="#c60e0e" layoutX="84.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are You Sure You Want To Exit?" wrappingWidth="446.13671875">
+         <font>
+            <Font name="Bernard MT Condensed" size="35.0" />
+         </font>
+      </Text>
+      <Button fx:id="closeButton" layoutX="136.0" layoutY="157.0" mnemonicParsing="false" onAction="#Yes" prefHeight="43.0" prefWidth="79.0" style="-fx-border-width: 3; -fx-border-color: linear-gradient(to bottom, #3333cc 0%, #00ff99 100%);" styleClass="Yes" stylesheets="@Exit2_page_style.css" text="Yes" textFill="#e8e8e8">
+         <font>
+            <Font name="Bernard MT Condensed" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="373.0" layoutY="157.0" mnemonicParsing="false" onAction="#No" prefHeight="51.0" prefWidth="72.0" style="-fx-border-color: linear-gradient(to bottom, #3333cc 0%, #00ff99 100%); -fx-border-width: 3;" styleClass="No" stylesheets="@Exit2_page_style.css" text="No" textFill="#f5eeee">
+         <font>
+            <Font name="Bernard MT Condensed" size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

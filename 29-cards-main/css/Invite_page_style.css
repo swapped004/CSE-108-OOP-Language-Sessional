@@ -1,0 +1,16 @@
+.Join{
+    -fx-background-color:#0000FF;
+    -fx-text-fill: #FFFFFF;
+}
+.Join:hover{
+    -fx-background-color:#FFFFFF;
+    -fx-text-fill: #0000FF;
+}
+.GoBack{
+    -fx-background-color:#0000FF;
+    -fx-text-fill: #FFFFFF;
+}
+.GoBack:hover{
+    -fx-background-color:#FFFFFF;
+    -fx-text-fill: #0000FF;
+}

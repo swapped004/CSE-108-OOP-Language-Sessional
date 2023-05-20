@@ -1,0 +1,129 @@
+package allin;
+
+public class staticobjects {
+
+    //keeps track of the playerturn
+    public static int playerturn;
+    //total number of cards played in the round
+    public static int numberofcardsplayed;
+    //the player who plays 1st card
+    public static int playerofround;
+    //suit of the round
+    public  static String suit;
+    //player who will win the round
+    public static int whowinstheround;
+    //
+    public static int gamestart;
+    static {
+        gamestart=-1;
+    }
+
+    //card played by player1
+    public static cards card1;
+    //card played by player1
+    public static cards card2;
+    //card played by player1
+    public static cards card3;
+    //card played by player1
+    public static cards card4;
+
+
+    public static cards getCard1() {
+        return card1;
+    }
+
+    public static void setCard1(cards card1) {
+        staticobjects.card1 = card1;
+        numberofcardsplayed++;
+        playerturn++;
+    }
+
+    public static cards getCard2() {
+        return card2;
+    }
+
+    public static void setCard2(cards card2) {
+        staticobjects.card2 = card2;
+        numberofcardsplayed++;
+        playerturn++;
+
+    }
+
+    public static cards getCard3() {
+        return card3;
+    }
+
+    public static void setCard3(cards card3) {
+        staticobjects.card3 = card3;
+        numberofcardsplayed++;
+        playerturn++;
+
+    }
+
+    public static cards getCard4() {
+        return card4;
+    }
+
+    public static void setCard4(cards card4) {
+        staticobjects.card4 = card4;
+        numberofcardsplayed++;
+        playerturn++;
+    }
+
+    public static String getroundsuit()
+    {
+        if(playerofround==0)
+        {
+            suit=card1.getSuit();
+        }
+        else if(playerofround==1)
+        {
+            suit=card2.getSuit();
+        }
+        else if(playerofround==2)
+        {
+            suit= card3.getSuit();
+        }
+        else
+            suit=card4.getSuit();
+        return suit;
+    }
+
+    public static int getwinnerplayer()
+    {
+        String prec=new String("j9a1kq87");
+        for(int i=0;i<8;i++) {
+            if ((card1.getCardname()).charAt(0) == prec.charAt(i) && card1.suit.equals(suit)) {
+                whowinstheround = 0;
+                System.out.println(card1.cardname.charAt(0));
+                break;
+            } else if ((card2.getCardname()).charAt(0) == prec.charAt(i) && card2.suit.equals(suit)) {
+                whowinstheround = 1;
+                System.out.println(card2.cardname.charAt(0));
+
+                break;
+            } else if ((card3.getCardname()).charAt(0) == prec.charAt(i) && card3.suit.equals(suit)) {
+                whowinstheround = 2;
+                System.out.println(card3.cardname.charAt(0));
+
+                break;
+            } else if ((card4.getCardname()).charAt(0) == prec.charAt(i) && card4.suit.equals(suit)) {
+                whowinstheround = 3;
+                System.out.println(card4.cardname.charAt(0));
+                break;
+            }
+            System.out.println(card1.cardname);
+            System.out.println(card2.cardname);
+            System.out.println(card3.cardname);
+            System.out.println(card4.cardname);
+        }
+        return whowinstheround;
+    }
+
+    public staticobjects()
+    {
+
+    }
+
+}
+

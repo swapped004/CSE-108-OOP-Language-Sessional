@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.thirdpage2Controller">
+    <children>
+        <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true">
+            <image>
+                <Image url="@../15769274.jpg" />
+            </image>
+         <effect>
+            <BoxBlur height="29.29" iterations="3" width="0.0">
+               <input>
+                  <GaussianBlur />
+               </input>
+            </BoxBlur>
+         </effect>
+        </ImageView>
+        <Button layoutX="490.0" layoutY="366.0" mnemonicParsing="false" onAction="#newdealbutton" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to bottom, #ff3399 0%, #ffff00 100%);" styleClass="newdealbutton" stylesheets="@New_deal_button_style.css" text="New Deal" textFill="#2b1acd">
+            <font>
+                <Font name="Bernard MT Condensed" size="36.0" />
+            </font>
+        </Button>
+      <ImageView fitHeight="117.0" fitWidth="132.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Draw-a-Cute-Cartoon-Person-Step-14.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="132.0" layoutX="548.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../20-204683_smiling-face-of-a-child-face-boy-cartoon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="132.0" layoutX="1094.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

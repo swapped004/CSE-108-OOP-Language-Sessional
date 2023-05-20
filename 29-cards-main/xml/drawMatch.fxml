@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.draw">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1200.0" layoutX="-2.0" layoutY="-5.0" pickOnBounds="true">
+         <image>
+            <Image url="@../21343172.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="Team1" layoutX="154.0" layoutY="480.0" prefHeight="55.0" prefWidth="303.0" textFill="#e8e5e5">
+         <font>
+            <Font name="Bernard MT Condensed" size="49.0" />
+         </font>
+      </Label>
+      <Label fx:id="Team2" layoutX="731.0" layoutY="490.0" prefHeight="55.0" prefWidth="329.0" text="Papon &amp; Fahmid" textFill="#ebe8e8">
+         <font>
+            <Font name="Bernard MT Condensed" size="49.0" />
+         </font>
+      </Label>
+      <Text fill="#f5f0f0" fontSmoothingType="LCD" layoutX="430.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCORES LEVEL!" wrappingWidth="373.13671875">
+         <font>
+            <Font name="Bernard MT Condensed" size="70.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

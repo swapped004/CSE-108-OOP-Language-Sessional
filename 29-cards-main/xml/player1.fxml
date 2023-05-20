@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.player1Controller">
+    <children>
+        <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true">
+            <image>
+                <Image url="@../15769274.jpg" />
+            </image>
+        </ImageView>
+        <HBox layoutX="22.0" layoutY="569.0" prefHeight="233.0" prefWidth="1175.0" spacing="12.0">
+            <children>
+                <ImageView fx:id="imagecard5" fitHeight="180.0" fitWidth="130.0" onDragDetected="#dragcard5" pickOnBounds="true" />
+                <ImageView fx:id="imagecard6" fitHeight="180.0" fitWidth="130.0" onDragDetected="#dragcard6" pickOnBounds="true" />
+                <ImageView fx:id="imagecard1" fitHeight="180.0" fitWidth="130.0" onDragDetected="#dragcard1" pickOnBounds="true" />
+                <ImageView fx:id="imagecard2" fitHeight="180.0" fitWidth="130.0" onDragDetected="#dragcard2" pickOnBounds="true" />
+                <ImageView fx:id="imagecard3" fitHeight="180.0" fitWidth="130.0" onDragDetected="#dragcard3" pickOnBounds="true" />
+                <ImageView fx:id="imagecard4" fitHeight="180.0" fitWidth="130.0" onDragDetected="#dragcard4" pickOnBounds="true" />
+                <ImageView fx:id="imagecard7" fitHeight="180.0" fitWidth="130.0" onDragDetected="#dragcard7" pickOnBounds="true" />
+            <ImageView fx:id="imagecard8" fitHeight="180.0" fitWidth="130.0" layoutX="872.0" layoutY="20.0" onDragDetected="#dragcard8" pickOnBounds="true" />
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </HBox>
+        <Label fx:id="player1label" layoutX="580.0" layoutY="483.0" textFill="#bfd325">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="player2label" layoutX="1002.0" layoutY="338.0" textFill="#bfd325">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="player4label" layoutX="114.0" layoutY="338.0" textFill="#bfd325">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="player3label" layoutX="586.0" layoutY="179.0" textFill="#bfd325">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+      <ImageView fx:id="cardplayer1imageview" fitHeight="180.0" fitWidth="130.0" layoutX="535.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cardplayer2imageview" fitHeight="180.0" fitWidth="130.0" layoutX="681.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true" />
+          <ImageView fx:id="cardplayer3imageview" fitHeight="180.0" fitWidth="130.0" layoutX="535.0" layoutY="197.0" pickOnBounds="true" />
+      <Label fx:id="playerturnlabel" layoutY="2.0" style="-fx-background-color: #CD853F;" textFill="#101622">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="180.0" fitWidth="130.0" layoutX="-1.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card_back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="180.0" layoutX="631.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card_back_rotated.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="130.0" layoutX="1078.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../card_back.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="winlabel" layoutX="4.0" layoutY="289.0" prefHeight="45.0" prefWidth="277.0" style="-fx-text-fill: linear-gradient(to bottom, #ff0000 0%, #000066 100%);">
+         <font>
+            <Font name="Bernard MT Condensed" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="user2" layoutX="535.0" layoutY="125.0" prefHeight="41.0" prefWidth="122.0" textFill="#06fcdb">
+         <font>
+            <Font name="Bernard MT Condensed" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="user3" layoutX="118.0" layoutY="518.0" prefHeight="44.0" prefWidth="147.0" textFill="#06cbee">
+         <font>
+            <Font name="Bernard MT Condensed" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="user1" layoutX="957.0" layoutY="512.0" prefHeight="44.0" prefWidth="141.0" textFill="#06d6f2">
+         <font>
+            <Font name="Bernard MT Condensed" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="playerturnlabel" layoutX="9.0" layoutY="21.0" prefHeight="50.0" prefWidth="245.0" textFill="#0807ed">
+         <font>
+            <Font name="Bernard MT Condensed" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="cardplayer4imageview" fitHeight="180.0" fitWidth="130.0" layoutX="379.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image2" fitHeight="117.0" fitWidth="93.0" layoutX="535.0" layoutY="8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../20-204683_smiling-face-of-a-child-face-boy-cartoon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image3" fitHeight="180.0" fitWidth="107.0" layoutX="125.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Draw-a-Cute-Cartoon-Person-Step-14.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image1" fitHeight="117.0" fitWidth="107.0" layoutX="978.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="waitingLabel" layoutX="396.0" layoutY="380.0" text="Waiting For Other Players..." textFill="#e4d20a">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressBar" layoutX="496.0" layoutY="338.0" prefHeight="33.0" prefWidth="200.0" />
+      <Label fx:id="score" layoutX="9.0" layoutY="147.0" prefHeight="44.0" prefWidth="99.0" textFill="#dfee06">
+         <font>
+            <Font name="Bernard MT Condensed" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel1" layoutX="14.0" layoutY="202.0" prefHeight="34.0" prefWidth="163.0">
+         <font>
+            <Font name="Bernard MT Condensed" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel2" layoutX="14.0" layoutY="250.0" prefHeight="34.0" prefWidth="180.0">
+         <font>
+            <Font name="Bernard MT Condensed" size="28.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
